@@ -1,0 +1,33 @@
+.nameForm,
+.greeting {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+.nameForm h4 {
+    font-size: 24px;
+}
+
+.nameForm input {
+    font-size: 18px;
+    color: #fff;
+    top: 240px;
+    height: 40px;
+    background-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 1;
+}
+
+.nameForm input:focus {
+    color: #fff;
+    outline: none;
+}
+
+.nameForm input::placeholder {
+    color:#fff;
+}
