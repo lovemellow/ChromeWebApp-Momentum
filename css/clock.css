@@ -1,6 +1,47 @@
-.clockTarget h1{
-    font-size: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@400;500&display=swap');
+
+.clockContainer {
+    margin-top: 200px;
 }
 
-.toDoContainer {
+.dayTarget {
+}
+
+.clockTarget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clockTarget h1{
+    font-size: 160px;
+    letter-spacing: 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+    float: left;
+}
+
+.dayTarget h2 {
+    font-size: 22px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+
+}
+
+.clockTarget h3 {
+    position: absolute;
+    margin : -45px 0 0 226px;
+    font-size: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+}
+
+.clockTarget h4 {
+    position: absolute;
+    margin: 10px 0 0 230px;
+    font-size: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 6px;
 }
