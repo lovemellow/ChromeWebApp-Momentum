@@ -1,6 +1,7 @@
 .nameForm,
 .greeting {
     display: none;
+    margin-top: 50px;
 }
 
 .showing {
@@ -8,18 +9,19 @@
 }
 
 .nameForm h4 {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .nameForm input {
-    font-size: 18px;
+    width: 240px;
+    font-size: 27px;
     color: #fff;
-
     background-color: transparent;
     border-left-width: 0;
     border-right-width: 0;
     border-top-width: 0;
     border-bottom-width: 1;
+    text-align: center;
 }
 
 .nameForm input:focus {
