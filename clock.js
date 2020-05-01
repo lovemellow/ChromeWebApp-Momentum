@@ -7,12 +7,18 @@ const clockContainer = document.querySelector(".clockTarget"),
 
 
 function getDay() {
-    const date= new Date();
+    const date = new Date();
     const years = date.getFullYear();
-    const month = date.getMonth()+1;
+    const month = date.getMonth() + 1;
     const days = date.getDate();
-    const week = date.getDay();
-    todayTitle.innerText = (`${years}년 ${month}월 ${days}일 ${week}요일`);
+
+    var week = date.getDay();
+    var today = new Array('일', '월', '화', '수', '목', '금', '토');
+
+
+
+
+    todayTitle.innerText = (`${years}년 ${month}월 ${days}일 ${today[week]}요일`);
 }
 
 function getTime() {
@@ -29,7 +35,7 @@ function getTime() {
 function init() {
     getDay();
     getTime();
-    setInterval(getTime,1000);
+    setInterval(getTime, 1000);
 }
 
 init();

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,53 +8,56 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Momentum</title>
 </head>
+
 <body>
     <div id="bgImage"></div>
 
-        <div class="container">
+    <div class="container">
 
-            <div class="weather"></div>
+        <div class="weather"></div>
 
-            <div class="clockContainer">
+        <div class="clockContainer">
 
-                <div class="dayTarget">
-                    <h2>1111년 1월 1일 월요일</h2>
-                </div>
-
-                <div class="clockTarget">
-                    <h1>00:00</h1>
-                    <h3>AM</h3>
-                    <h4>00</h4>
-                </div>
-
+            <div class="dayTarget">
+                <h2></h2>
             </div>
 
-
-            <div class="greetingContainer">
-                <form class="nameForm">
-                    <label>
-                        <input type="text" placeholder="What's your name?" />
-                    </label>
-                </form>
-                <h4 class="greeting"></h4>
+            <div class="clockTarget">
+                <h1>00:00</h1>
+                <h3>AM</h3>
+                <h4>00</h4>
             </div>
 
-
-            <div class="toDoContainer">
-                <form class="toDoForm">
-                    <h2>Write a ToDo here</h2>
-                    <label>
-                        <input type="text" class="underline" />
-                    </label>
-                </form>
-                <ul class="toDoList"></ul>
-            </div>
         </div>
+
+
+        <div class="greetingContainer">
+            <form class="nameForm">
+                <label>
+                    <input type="text" placeholder="What's your name?" />
+                </label>
+            </form>
+            <h4 class="greeting"></h4>
+        </div>
+
+
+        <div class="toDoContainer">
+            <form class="toDoForm">
+                <h2>Write a To Do here</h2>
+                <label>
+                    <input type="text" class="underline" />
+                </label>
+            </form>
+            <ul class="toDoList"></ul>
+        </div>
+    </div>
 
 
     <script src="bg.js"></script>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
+    <script src="weather.js"></script>
 </body>
+
 </html>
