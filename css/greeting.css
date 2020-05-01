@@ -1,16 +1,18 @@
 .nameForm,
 .greeting {
     display: none;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .showing {
     display: block;
+    font-size: 27px;
 }
 
 .nameForm h4 {
-    font-size: 32px;
+    font-size: 27px;
 }
+
 
 .nameForm input {
     width: 240px;

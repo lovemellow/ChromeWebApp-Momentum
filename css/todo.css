@@ -6,10 +6,18 @@
     color: #7f8c8d;
 }
 
+.toDoForm {
+    margin-top: 30px;
+}
+
+.toDoForm h2 {
+    font-size: 32px;
+}
+
 .toDoForm input {
-    margin-top: 10px;
+    margin-top:0px;
     background-color: transparent;
-    font-size: 18px;
+    font-size: 24px;
     color: #fff;
     width: 320px;
     height: 40px;
@@ -17,6 +25,7 @@
     border-right-width: 0;
     border-top-width: 0;
     border-bottom-width: 1;
+    text-align: center;
 }
 
 .toDoForm input:focus {
@@ -29,7 +38,7 @@
 }
 
 .toDoList {
-    font-size: 16px;
+    font-size: 18px;
     list-style: none;
     line-height: 30px;
 }

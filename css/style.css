@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
 @import "clock.css";
 @import "greeting.css";
 @import "todo.css";
@@ -21,6 +25,8 @@ html, body {
     font-size: 13px;
     letter-spacing: -0.5pt;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
 }
 
 

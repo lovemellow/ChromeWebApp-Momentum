@@ -1,21 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@400;500&display=swap');
-
 .clockContainer {
-    margin-top: 200px;
+    margin-top: 170px;
 }
 
-.dayTarget {
-}
 
 .clockTarget {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -85px;
 }
 
 .clockTarget h1{
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'Nanum Gothic', sans-serif;
     float: left;
 }
@@ -31,7 +27,7 @@
 
 .clockTarget h3 {
     position: absolute;
-    margin : -26px 0 0 208px;
+    margin : -22px 0 0 180px;
     font-size: 34px;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 200;
@@ -40,7 +36,7 @@
 
 .clockTarget h4 {
     position: absolute;
-    margin: 28px 0 0 209px;
+    margin: 25px 0 0 182px;
     font-size: 40px;
     font-family: 'Nanum Gothic', sans-serif;
     letter-spacing: 6px;
